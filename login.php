@@ -9,10 +9,9 @@ include("conecta.php");
 include ("banco_usuario.php");
 
 $usuario = buscaUsuario($conexao, $_POST["email"], $_POST["senha"]);
-echo $usuario;
-/**if ($usuario==null){
+if ($usuario==null){
     header("Location: index.php?login=false");
 } else {
     header("Location: index.php?login=true");
 }
-die();*/
+die(iiiii);
